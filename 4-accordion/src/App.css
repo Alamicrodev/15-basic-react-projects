@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: calc(93.75% + 0.390625vw); 
+}
+
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E3C0D3;
+}
+
+.content {
+  background-color: #FFF;
+  width: 90vw;
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.content h1 {
+  text-align: center;
+font-weight: 400;
+font-size: 2.2rem;
+
+}
+
+.content ul {
+  padding: 1.5rem 0;
+  text-align: left;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+
+
+
