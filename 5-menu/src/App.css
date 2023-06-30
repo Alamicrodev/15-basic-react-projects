@@ -1,0 +1,46 @@
+
+
+
+
+html {
+  font-size: calc(93.75% + 0.390625vw);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main {
+    background-color: #FDFFFC;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+  margin: 2.5rem 0;
+  width: 90vw;
+  max-width: 1200px;
+}
+
+.body header {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.body header h1 {
+  margin: 0.6rem 0;
+  font-weight: 400;
+}
+
+.body header div {
+   background-color: #D80032;
+   margin: 0 auto;
+   height: 0.18rem;
+   width: 6rem;
+}
+
+
+
