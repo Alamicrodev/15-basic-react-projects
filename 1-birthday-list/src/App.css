@@ -1,0 +1,60 @@
+html {
+  font-size: calc(93.75% + 0.390625vw);          
+}
+
+
+* {
+    margin: 0;
+}
+
+#root {
+  box-sizing: border-box;
+
+}
+
+
+.App {
+  height: 100%;
+  width: 100%;
+  background: #7B2D26;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 85px 0;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  width: 90vw;
+  max-width: 540px;
+  border-radius: 5px;
+}
+
+.container > h2 {
+  font-size: 1.5rem;
+  font-weight: 380;
+  margin-bottom: 25px;
+}
+
+.birthdayList {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.container > #btn {
+  font-size: 0.7rem;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #0B7A75;
+  color: white;
+  padding: 0.5em 0;
+}

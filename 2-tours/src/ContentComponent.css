@@ -1,0 +1,89 @@
+
+/* Media Queries */
+
+
+main {
+    width: 90vw; 
+    max-width: 1150px;
+    margin: 4rem auto;
+    text-align: center;
+    color: #fff;
+}
+
+/* Content Empty */
+
+.contentEmpty {
+   margin: 0 auto;
+}
+
+.contentEmpty > h2 {
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.contentEmpty > input {
+    margin-top: 1rem;
+    color: white;
+    background-color: #F93943;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding:  0.5em 1em;
+}
+
+
+.contentEmpty > input:hover {
+    color: white;
+    background-color: #F93943;
+    transition: background 0.3s ease-in;
+}
+
+/* Content Empty End */
+
+/* Content */
+
+.content {
+    margin: 0 auto;
+    text-align: center;
+ }
+
+.content > h2 { 
+    font-size: 2.4rem;
+    font-weight: 400;
+}
+
+.content > .headerUnderline {
+    height: 5px;
+    background-color: #F93943;
+    width: 6rem;
+    margin: 0.7rem auto;
+}
+
+.content > .toursList {
+    margin-top: 2rem; 
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.7rem;
+}
+
+/* End of Content */
+
+
+@media screen and (max-width:1000px) {                                     
+    
+    .content > .toursList {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (max-width:750px) {                                     
+    
+    .content > .toursList {
+        grid-template-columns: 1fr ;
+    }
+}
+
+
+
+

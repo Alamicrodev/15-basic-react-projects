@@ -1,0 +1,11 @@
+.loadingDiv {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.circularProgress {
+    height: 100px !important;
+    width: 100px !important;
+    color: #F93943 !important;
+}

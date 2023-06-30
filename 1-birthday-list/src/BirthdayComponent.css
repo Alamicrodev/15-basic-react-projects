@@ -1,0 +1,29 @@
+li {
+    padding-bottom: 20px;
+}
+
+.birthday {
+    display: flex;
+    align-items: center;
+}
+
+.birthday img {
+    max-height: 70px;
+    border-radius: 100px;
+}
+
+.userData {
+    margin-left: 10px;
+}
+
+.userData__name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 0;
+}
+
+.userData__age {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: grey;
+}

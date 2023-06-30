@@ -1,0 +1,116 @@
+.card {
+    background-color: #F3E1DD;
+    padding: 1rem 1.4rem;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 10px 8px 42px -15px rgba(81,13,10,1);
+}
+
+
+.card > .imgContainer {
+    position: relative;
+    margin: 0.2rem auto;
+    width: 7rem;
+    height: 7rem;
+}
+
+
+.card > .imgContainer::before {
+    content: "";
+    background-color: #510D0A;
+    top: -0.3rem; 
+    right: -0.4rem;
+    border-radius: 50%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card .imgContainer > img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.card .imgContainer > .quoteIcon  {
+    border-radius: 50%;
+    background-color: #510D0A;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+ 
+.card .imgContainer > .quoteIcon > svg {
+    fill: #fff;
+}
+
+.card .data {
+    margin: 0.6rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .data .data__name {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.card .data .data__job {
+    font-size: 0.7em;
+    font-weight: 500;
+    padding-top: 0;
+    margin: 0;
+    color: #510D0A;
+}
+
+.card .data p {
+    padding: 0.5rem 0;
+    font-size: 0.85rem;
+
+}
+
+
+.card .controllers {
+    padding-bottom: 0.4rem;
+    text-align: center;
+}
+
+.card .controllers .controllers__navigation{
+    margin: 0 auto;
+    width: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .controllers .controllers__navigation svg {
+    fill: #510D0A;
+    cursor: pointer;
+}
+
+.card .controllers input {
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    background: #510D0A;
+    color: #FFD9DA;
+    cursor: pointer;
+
+}
+
+.card .controllers input:hover {
+    color: #510D0A;
+    background: #FFD9DA;
+    transition: background 0.2s ease-in;
+}

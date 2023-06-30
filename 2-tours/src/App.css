@@ -1,0 +1,16 @@
+html {
+  font-size: (93.75% + 0.390625vw);
+  background-color: #001011;
+}
+
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+.root {
+  box-sizing: border-box;
+  
+}
+
+

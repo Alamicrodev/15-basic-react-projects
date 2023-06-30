@@ -1,0 +1,70 @@
+
+
+
+.tourCard {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.tourCard > span {
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    padding: 0.5em 0.8em;
+    background-color: #F93943;
+    color: #fff;
+    border-top-right-radius: 5px;
+}
+
+.tourCard > img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tourContent {
+    padding: 1.4rem 1.2rem;
+    text-align: left;
+}
+
+.tourContent > h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.tourContent > p {
+    color: grey;
+}
+
+.tourContent > p > a {
+    color: #F93943;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.tourContent > input {
+    display: block;
+    margin-top: 1.4rem;
+    background-color: #fff;
+    padding: 0.5em 0;
+    color: #F93943;
+    border: solid #F93943 1px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.tourContent > input:hover {
+    background-color: #F93943;
+    color: #fff;
+    transition: background 0.2s ease-in;
+}
