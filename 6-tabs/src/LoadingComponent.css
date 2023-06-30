@@ -1,0 +1,10 @@
+.loaderContainer{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.loader {
+    color: #320E3B !important;
+    height: 6rem !important;
+    width: 6rem !important;
+}

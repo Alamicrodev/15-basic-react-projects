@@ -1,0 +1,60 @@
+
+.sidebar {
+    width: 25%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul li {
+    width: 100%;
+    margin: 0.7rem 0;
+}
+
+.sidebar__item--selected {
+    border-left: solid 2px #320E3B;
+    color: #320E3B;
+    
+}
+
+.sidebar ul li button {
+    border: none;
+    background: none;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    color: inherit;
+}
+
+
+
+@media  screen and (max-width: 1000px) {
+    
+  .sidebar {
+    width: 100%;
+  }
+    
+    .sidebar ul { 
+       flex-direction: row;
+       justify-content: center;
+       margin-bottom: 1rem;
+   }
+
+   
+  .sidebar ul li {
+    width: auto;
+    margin: 0.7rem 0.5rem;
+  }
+
+  .sidebar__item--selected {
+    border-left: none;
+    border-bottom: solid 2px #320E3B;
+    color: #320E3B;
+    
+}
+
+}
