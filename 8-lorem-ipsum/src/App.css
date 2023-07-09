@@ -1,0 +1,70 @@
+* {
+  margin: 0; 
+  padding: 0; 
+}
+
+html {
+  font-size: 62.5%;
+  background: rgb(246, 246, 246);
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  margin: 0 auto; 
+  width: 80vw; 
+  max-width: 80rem;
+}
+
+main header {
+  margin: 12rem auto 2.5rem auto;
+}
+
+main header h2 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.controllers span {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.controllers .numberInput {
+  font-size: 2rem;
+  background: rgb(225, 225, 225);
+  border: none;
+  border-radius: 3px;
+  padding: 0.3em 0.6em;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.controllers .generateButton {
+  font-size: 1.4rem;
+  padding: 0.6em 1em;
+  border: none;
+  background: #379634; 
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.controllers .generateButton:hover {
+  background-color: #0A3200;
+  transition: background 0.3s ease-in;
+}
+
+.content {
+  margin: 5rem auto;
+  text-align: left;
+  font-size: 1.8rem;
+  color: rgb(56, 56, 56);
+}
+
+.content > p {
+  margin-bottom: 4rem;
+}
