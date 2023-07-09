@@ -18,7 +18,7 @@ function App() {
       while (true) {
           tempParas.push(data[i])
 
-          if (tempParas.length === paraCount) {
+          if (tempParas.length >= paraCount) {
             break; 
           }
         if (i < data.length-1){
