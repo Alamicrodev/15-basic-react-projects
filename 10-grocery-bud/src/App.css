@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #000000;
+}
+
+.successToast {
+  font-size: 1.5rem;
+}
+
+.App {
+  box-sizing: border-box;
+  color: #000;
+  text-align: center;
+}
+
+main {
+  background: #F3EFE0;
+  margin: 12rem auto 0 auto;
+  padding: 3rem 3rem;
+  border-radius: 5px;
+  width: 90vw;
+  max-width: 40rem;
+}
+
+main > h2 {
+  font-size: 2.5rem;
+  font-weight: 450;
+}
+
+main > form {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+main > form > .titleInput {
+  font-size: 1.5rem;
+  padding: 0.5em 0.8em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid rgb(181, 181, 181);
+  width: 75%;
+}
+
+main > form > .btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.2em 1em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  color: #fff;
+  background-color: #EC4E20;
+}
+
+main > form > .btn:hover {
+  background-color: #ea4411;
+  transition: background 0.2s ease-in;
+}
+
+.entries {
+  margin-top: 3rem;
+}
+
+.entries .singleEntry {
+  width: 100%;
+  display: flex;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.singleEntry label {
+  font-size: 1.7rem;
+  font-weight: 400;
+  
+}
+.singleEntry label input {
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.singleEntry .btn {
+   background-color: #000;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   padding: 0.5em 1em;
+   border-radius: 5px;
+}
+
+.singleEntry .btn:hover {
+  background: #ea4411;
+  transition: background 0.2s ease-in;
+}
+
+.text-overline {
+  text-decoration: line-through;
+}
+
+
