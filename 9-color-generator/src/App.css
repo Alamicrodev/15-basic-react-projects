@@ -1,0 +1,80 @@
+html {
+  font-size: 62.5%;
+  background: #F3F3F4;
+  box-sizing: border-box;
+}
+
+.controllers {
+  margin: 5rem 4rem;
+  max-height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+}
+
+.controllers > h2 {
+  font-weight: 450;
+  font-size: 2.6rem;
+  display: inline-block;
+}
+
+.controllers > form {
+  display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  font-size: 2rem;
+  margin: 0 3rem;
+  padding: 0 0;
+}
+
+.controllers > form > .colorPicker {
+  border: none;
+  height: 4rem;
+  width: 5rem;
+}
+
+.controllers > form > .form__textInput {
+  font-size: 2rem;
+  padding: 0.3em 0.8em;
+  border: none;
+  max-width: 30vw;
+} 
+
+.controllers > form > .form__submit {
+   font-size: 1.4rem;
+   font-weight: 450;
+   color: #fff;
+   padding: 0.8em 0.8em;
+   border: none;
+   cursor: pointer;
+   /* background-color: #34312D; */
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.controllers > form > .form__submit:hover {
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.101);
+  transition: background 0.2s ease-in-out;
+}
+
+
+.colors {
+  display: grid;
+  min-height: calc(100vh - 180px);
+  grid-template-columns: repeat(auto-fit, minmax(223.33px,1fr));
+  grid-template-rows: repeat(auto-fit, minmax(96px,1fr));
+}
+
+.colors .singleColor {
+  padding: 3rem;
+  cursor: pointer;
+}
+
+.singleColor > span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.toasty {
+  font-size: 1.5rem !important;
+}
