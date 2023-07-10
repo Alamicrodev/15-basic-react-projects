@@ -24,6 +24,15 @@ function App() {
   const onSubmit = (e) => {
     e.preventDefault()
 
+    if (!input.trim()) {
+      // Create an instance of Notyf
+    const notyf = new Notyf({position: {x: "center", y:"top"}, types: [{type: "error", className: "successToast"}]})
+
+    // Display an error notification 
+    notyf.error({message: "Please Provide Value", background: "#EC4E20"})
+    return 
+    }
+
     const randomId = function(length = 6) {
       return Math.random().toString(36).substring(2, length+2);
     };
