@@ -1,0 +1,138 @@
+
+
+nav {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    background: #020402;
+    box-shadow: 0px 2px 3px 0.5px #00000087;
+}
+
+.nav__main {
+    margin: auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.nav__main .logo {
+    font-size: 2.7rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: #7D4F50;
+    text-shadow: 2px 4px 13px rgba(125,79,80,0.91);
+}
+.nav__main .logo span {
+    color: #D1BE9C;
+}
+
+.nav__main .nav__toggle {
+    border: none;
+    background: none;
+    color: #D1BE9C;
+    font-size: 2.7rem;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav__main .toggle--active {
+    transform: rotate(90deg);
+    
+}
+
+
+.nav__links {
+    height: 0px;
+    overflow: hidden;
+    text-align: left;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    transition: all 0.2s linear;
+}
+
+.nav__links--show {
+
+}
+
+.nav__links ul {
+    list-style-type: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: 2rem 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav__links ul.social {
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+}
+
+.nav__links ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0.4rem auto;
+}
+
+.nav__links ul li a:hover {
+    color: #D1BE9C;
+    transition: color 0.2s ease-in;
+}
+
+@media screen and (min-width: 800px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav__main {
+        width: auto;
+    }
+
+    .nav__main .nav__toggle {
+        visibility: collapse;
+    }
+
+    .nav__links {
+        height: auto !important;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+    }
+
+    .nav__links ul {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding: 0;
+    }
+
+    .nav__links .navigation {
+        display: flex;
+        width: 70%;
+        justify-content: center;
+    }
+
+    .nav__links .navigation li {
+        margin: 0 5px;
+    }
+
+    .nav__links ul.social {
+        width: 30%;
+        justify-content: center;
+    }
+
+    .nav__links ul.social li {
+        margin: 0 5px;
+    }
+
+} 
