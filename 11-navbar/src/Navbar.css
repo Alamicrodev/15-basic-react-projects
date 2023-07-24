@@ -56,10 +56,10 @@ nav {
     max-width: 1200px;
     transition: all 0.2s linear;
 }
-
+/* 
 .nav__links--show {
 
-}
+} */
 
 .nav__links ul {
     list-style-type: none;
